@@ -15,6 +15,17 @@
     column-gap: 40px;
 }
 
+.detail-element-left {
+    display: grid;
+    grid-template-rows: [first] auto [second];
+    grid-template-columns: [first] auto [second] auto [third];
+    grid-template-areas: 
+        "photo details";
+    max-width: 65vw;
+    margin-top: 80px;
+    column-gap: 40px;
+}
+
 .details-wrapper {
     display: grid;
     grid-template-rows: [first] 20px [second] auto [third] 20px [fourth];
