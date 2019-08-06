@@ -14,7 +14,7 @@
     display: grid;
     grid-template-rows: [first] 1fr [second] 40px [third] 40px [fourth] 40px [fifth] 40px [sixth] 40px [seventh] 40px [eigth];
     grid-template-columns: [firts] 13fr [second] 80px [third] 40px [fourth] 40px [fifth] 80px [sixth];
-    max-width: 65vw;
+   
 }
 
 .text {
