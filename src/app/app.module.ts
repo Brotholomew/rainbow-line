@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MyParallaxDirective } from './my-parallax.directive';
 import { DetailsComponent } from './details/details.component';
+import { ChatComponent } from './chat/chat.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { DetailsComponent } from './details/details.component';
       AppComponent,
       HomeComponent,
       MyParallaxDirective,
-      DetailsComponent
+      DetailsComponent,
+      ChatComponent
    ],
    imports: [
       BrowserModule,

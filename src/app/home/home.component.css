@@ -12,8 +12,8 @@
 
 .logo-wrapper {
     display: grid;
-    grid-template-rows: [first] 1fr [second] 40px [third] 40px [fourth] 40px [fifth] 40px [sixth] 40px [seventh] 40px [eigth];
-    grid-template-columns: [firts] 13fr [second] 80px [third] 40px [fourth] 40px [fifth] 80px [sixth];
+    grid-template-rows: [first] 1fr [second] 2.2vw [third] 2.2vw [fourth] 2.2vw [fifth] 2.2vw [sixth] 2.2vw [seventh] 2.2vw [eigth];
+    grid-template-columns: [firts] 13fr [second] 4.4vw [third] 2.2vw [fourth] 2.2vw [fifth] 4.4vw [sixth];
    
 }
 
@@ -23,7 +23,7 @@
     grid-row-end: 4;
     grid-column-end: 3;
     font-family: PoiretOne;
-    font-size: 200px;
+    font-size: 11vw;
     color: white;
     z-index: 5;
     padding: 0;
@@ -82,7 +82,7 @@
     background: linear-gradient(to bottom, rgba(45,43,126,1) 0%, rgba(83,81,149,1) 25%, rgba(107,105,164,1) 40%, rgba(141,140,185,1) 57%, rgba(255,255,255,1) 100%);
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* Wobble Vertical */

@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .detail-element-right {
@@ -10,9 +11,8 @@
     grid-template-columns: [first] auto [second] auto [third];
     grid-template-areas: 
         "details photo";
-    max-width: 65vw;
     margin-top: 80px;
-    column-gap: 40px;
+    column-gap: 4.4vw;
 }
 
 .detail-element-left {
@@ -21,9 +21,8 @@
     grid-template-columns: [first] auto [second] auto [third];
     grid-template-areas: 
         "photo details";
-    max-width: 65vw;
     margin-top: 80px;
-    column-gap: 40px;
+    column-gap: 4.4vw;
 }
 
 .details-wrapper {
