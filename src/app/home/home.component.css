@@ -79,7 +79,7 @@
 }
 
 .second-wrapper {
-    background: linear-gradient(to bottom, rgba(45,43,126,1) 0%, rgba(83,81,149,1) 25%, rgba(107,105,164,1) 40%, rgba(141,140,185,1) 57%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(45,43,126,1) 0%, rgba(83,81,149,1) 25%, rgba(107,105,164,1) 40%, rgba(141,140,185,1) 57%, rgba(255,255,255,1) 100%); 
     display: flex;
     flex-direction: column;
     min-height: 100vh;

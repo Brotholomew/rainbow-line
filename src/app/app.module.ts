@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { MyParallaxDirective } from './my-parallax.directive';
 import { DetailsComponent } from './details/details.component';
 import { ChatComponent } from './chat/chat.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
    declarations: [
@@ -19,7 +19,8 @@ import { ChatComponent } from './chat/chat.component';
    ],
    imports: [
       BrowserModule,
-      AppRoutingModule
+      AppRoutingModule,
+      ReactiveFormsModule,
    ],
    providers: [],
    bootstrap: [

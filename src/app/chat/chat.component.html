@@ -1,1 +1,12 @@
-<p>chat works!</p>
+<div class="chat-wrapper">
+    <div class="header">
+
+    </div>
+    <div class="input">
+
+    </div>
+    <div class="input">
+        <input type="text" [formControl]="input" class="input-box" (keyup.enter)="onSend()"/>
+        <button type="Submit" (click)="onSend()">Submit</button>
+    </div>
+</div>

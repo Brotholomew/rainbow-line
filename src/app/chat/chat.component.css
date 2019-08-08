@@ -1,0 +1,31 @@
+.chat-wrapper {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "text secret"
+        "input input";
+    grid-template-rows: [first] auto [second] auto [third] auto [fourth];
+    grid-template-columns: [first] auto [second] auto [third];
+    width: 100%;
+}
+
+.text {
+    grid-area: text;
+}
+
+.input {
+    grid-area: input;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    
+}
+
+.header {
+    grid-area: header;
+}
+
+.input-box {
+ 
+}
